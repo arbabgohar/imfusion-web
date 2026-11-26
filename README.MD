@@ -1,6 +1,6 @@
 # ImFusion Web Viewer
 
-A small medical image viewer I built in the browser to learn the ImFusion Web SDK. 
+A small medical image viewer I built in the browser using ImFusion Web SDK. 
 
 ![ImFusion Web Viewer](Media/image.png)
 
