@@ -2,6 +2,7 @@
 
 A small medical image viewer I built in the browser to learn the ImFusion Web SDK. 
 
+![Overview](media/image.png)   
 
 ## What it does
 
