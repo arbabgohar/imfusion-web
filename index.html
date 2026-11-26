@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <body>
+    <input type="file" id="fileInput" />
+    <div id="status">Starting...</div>
+    <div id="controls" style="display:none; margin:8px 0; font-family:sans-serif">
+      <button id="phantomBtn">Generate phantom</button>
+      <label>Window <input id="windowSlider" type="range" /> <span id="windowVal"></span></label>
+      <label style="margin-left:16px">Level <input id="levelSlider" type="range" /> <span id="levelVal"></span></label>
+      <label style="margin-left:16px"><input id="invert" type="checkbox" /> Invert</label>
+      <button id="autoBtn" style="margin-left:16px">Auto window</button>
+      <label style="margin-left:16px">3D preset <select id="presetSelect"></select></label>
+    </div>
+    <canvas id="canvas" style="width:100%;height:80vh"></canvas>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
