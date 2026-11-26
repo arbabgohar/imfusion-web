@@ -7,6 +7,7 @@ A small medical image viewer I built in the browser to learn the ImFusion Web SD
 ## What it does
 
 - Opens a NIfTI scan (`.nii` / `.nii.gz`) and shows axial, sagittal, coronal, and 3D views
+- It also supports DICOM
 - Window/level sliders, invert, auto-window, and 3D transfer function presets
 - A "Generate phantom" button that builds a synthetic sphere volume in code, so I have test data with a known answer
 
